@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/gray"
+    android:layout_height="match_parent"
+    tools:context=".ArcticFox">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5pt"
+        android:text="Песец обыкновенный"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:fontFamily="cursive" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5pt"
+        android:text='Песец имеет некоторые особенности, которые позволяют ему жить в сложных условиях Арктики. Самой примечательной особенностью является его мех, который меняет цвет с коричневого (летняя окраска) на белый (зимняя окраска). Густая меховая "шуба" обеспечивает песцу хорошую маскировку и прекрасную защиту от холода.' />
+
+    <ImageButton
+        android:id="@+id/imageButtonAFox_A2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/arctic_fox" />
+
+</LinearLayout>
